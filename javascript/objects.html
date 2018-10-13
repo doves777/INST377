@@ -3,13 +3,13 @@
 	<style type="text/css">
 		.square {
 			margin-top: 50px;
-			margin-left: 100px;			
+			margin-left: 100px;
 		}
 
 		div {
 			margin-bottom: 20px;
 		}
-		
+
 	</style>
 </head>
 
@@ -38,11 +38,15 @@ function Square (width, height, color, classname){
 		sq.style.background = this.background;
 	}
 	// Task 3
+	this.putText = function(t, c){
+		sq.innerHTML = t;
+		sq.style.color = c;
+	}
 }
 
 s1 = new Square("200px", "50px", "grey", "square")
 
-
+s2 = new Square("100px", "50px", "blue", "square")
 // Task 1
 
 // Task 2

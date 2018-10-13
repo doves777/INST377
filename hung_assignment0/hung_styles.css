@@ -1,0 +1,33 @@
+#name{
+  background-color: #654C4F;
+  color: #C0CAAD;
+  height: 2em;
+  text-align: center;
+}
+#firstblock{
+  margin-left: auto;
+    margin-right: auto;
+    width: 60%
+}
+#insideone{
+  width: 33%;
+  float: left;
+}
+#insidetwo{
+  width: 66%;
+  float: left;
+}
+#name, #firstblock, #insideone, #insidetwo{
+  font-family: helvetica;
+}
+ #desc {
+  font-weight: bold;
+}
+img#image {
+    width:150px;
+    height: 150px;
+}
+body{
+  background-color: #9DA9A0;
+  overflow: hidden;
+}

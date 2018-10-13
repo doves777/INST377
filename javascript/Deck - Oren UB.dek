@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NetDeckID>0</NetDeckID>
+  <PreconstructedDeckID>0</PreconstructedDeckID>
+  <Cards CatID="69707" Quantity="4" Sideboard="false" Name="Disinformation Campaign" />
+  <Cards CatID="69481" Quantity="4" Sideboard="false" Name="Sinister Sabotage" />
+  <Cards CatID="67627" Quantity="2" Sideboard="false" Name="Cast Down" />
+  <Cards CatID="69507" Quantity="1" Sideboard="false" Name="Dead Weight" />
+  <Cards CatID="69831" Quantity="2" Sideboard="false" Name="Discovery/Dispersal" />
+  <Cards CatID="69511" Quantity="4" Sideboard="false" Name="Doom Whisperer" />
+  <Cards CatID="69449" Quantity="2" Sideboard="false" Name="Dream Eater" />
+  <Cards CatID="69541" Quantity="2" Sideboard="false" Name="Ritual of Soot" />
+  <Cards CatID="65538" Quantity="2" Sideboard="false" Name="Field of Ruin" />
+  <Cards CatID="66611" Quantity="2" Sideboard="false" Name="Moment of Craving" />
+  <Cards CatID="67951" Quantity="1" Sideboard="false" Name="Memorial to Genius" />
+  <Cards CatID="66617" Quantity="2" Sideboard="false" Name="Ravenous Chupacabra" />
+  <Cards CatID="68693" Quantity="1" Sideboard="false" Name="Island" />
+  <Cards CatID="69785" Quantity="4" Sideboard="false" Name="Thought Erasure" />
+  <Cards CatID="65274" Quantity="4" Sideboard="false" Name="Vraska's Contempt" />
+  <Cards CatID="47471" Quantity="4" Sideboard="false" Name="Watery Grave" />
+  <Cards CatID="65194" Quantity="1" Sideboard="false" Name="Arguel's Blood Fast" />
+  <Cards CatID="59746" Quantity="1" Sideboard="false" Name="Dead Weight" />
+  <Cards CatID="67949" Quantity="1" Sideboard="false" Name="Memorial to Folly" />
+  <Cards CatID="67979" Quantity="2" Sideboard="false" Name="Island" />
+  <Cards CatID="67977" Quantity="2" Sideboard="false" Name="Island" />
+  <Cards CatID="67975" Quantity="1" Sideboard="false" Name="Island" />
+  <Cards CatID="68705" Quantity="2" Sideboard="false" Name="Swamp" />
+  <Cards CatID="68701" Quantity="2" Sideboard="false" Name="Swamp" />
+  <Cards CatID="67987" Quantity="2" Sideboard="false" Name="Swamp" />
+  <Cards CatID="67985" Quantity="1" Sideboard="false" Name="Swamp" />
+  <Cards CatID="41221" Quantity="4" Sideboard="false" Name="Drowned Catacomb" />
+  <Cards CatID="53982" Quantity="2" Sideboard="true" Name="Disdainful Stroke" />
+  <Cards CatID="68349" Quantity="4" Sideboard="true" Name="Duress" />
+  <Cards CatID="69783" Quantity="2" Sideboard="true" Name="Thief of Sanity" />
+  <Cards CatID="66611" Quantity="2" Sideboard="true" Name="Moment of Craving" />
+  <Cards CatID="59511" Quantity="3" Sideboard="true" Name="Negate" />
+  <Cards CatID="69499" Quantity="2" Sideboard="true" Name="Blood Operative" />
+</Deck>
