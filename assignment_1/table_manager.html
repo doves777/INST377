@@ -225,13 +225,13 @@ var organizations = [
 
 <script>
 // outputs the first item of the organizations array. Just for testing.
-console.log(organizations[0]);
+//console.log(organizations[0]);
 
 // Your JavaScript code goes here
 //Number of non-profits
 var nonpCount = 0;
 for (var i=0, l=organizations.length; i<l; i++){
-	if(organizations[i]["Organization Type"]==="Nonprofit"){
+	if(organizations[i]["Organization Type"].includes("Nonprofit")){
 		nonpCount++;
 	}
 }
@@ -249,7 +249,7 @@ document.getElementById("age").innerHTML = oldCount;
 //Number of orgs in NA
 var naCount = 0;
 for (var i=0, l=organizations.length; i<l; i++){
-	if(organizations[i]["Region"]==="North America"){
+	if(organizations[i]["Region"].includes("North America")){
 		naCount++;
 	}
 }
@@ -258,7 +258,7 @@ document.getElementById("NA").innerHTML = naCount;
 //number of orgs using Transportation type of Data
 var transCount = 0;
 for (var i=0, l=organizations.length; i<l; i++){
-	if(organizations[i]["Type of Data Used"]==="Transportation"){
+	if(organizations[i]["Type of Data Used"].includes("Transportation")){
 		transCount++;
 	}
 }
@@ -268,13 +268,11 @@ document.getElementById("trans").innerHTML = transCount;
 var container = document.getElementById('visualization');
 var data = new vis.DataSet();
 for (var i=0, l=organizations.length; i<l; i++){
-	console.log(i);
 	data.add([
 		{id: i+1, content: organizations[i]["Organization Name"],
 		start: new Date(organizations[i]["Founding Year"],1,1) }
 	]);
 }
-console.log(data);
 var options ={}
 var timeline = new vis.Timeline(container, data, options);
 </script>
